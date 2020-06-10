@@ -3,7 +3,7 @@ class index extends React.Component {
   
   render() {
     return (
-      <div>home</div>
+      <div>homehhhhhhhh</div>
     )
   }
 }
