@@ -1,0 +1,6 @@
+const GET_LOGIN_DATA = 'GET_LOGIN_DATA' //登录
+const GET_REG_DATA = 'GET_REG_DATA'
+export {
+    GET_LOGIN_DATA,
+    GET_REG_DATA
+}
