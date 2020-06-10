@@ -2,7 +2,7 @@ import {get, post } from '@/utils/request';
 import { GET_LOGIN_DATA, GET_REG_DATA } from '@/constants/actionTypes'
 import api from '@/services/api'
 const proxy = 'http://134.175.115.202'
-const data = [1,2,3]
+const data = [1, 2, 3]
 export function getLogindata(options) {
     return {
         type: GET_LOGIN_DATA,
