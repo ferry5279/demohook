@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter } from 'react-router-dom'
 import { renderRoutes } from 'react-router-config'
-import { Hook,Login,Self,Home,Reg } from './assembly';
+import { Hook,Login,Self,Home,Reg,Exam } from './assembly';
 const routes = [
   
   {
@@ -22,7 +22,7 @@ const routes = [
   },
   {
     path: "/",
-    component: Home,
+    component: Exam,
 },
   
 ];

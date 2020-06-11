@@ -8,6 +8,8 @@ const Login = Loadable(() =>
 const Reg = Loadable(() =>
     import ('@/pages/reg'))
 const Home = Loadable(() =>
+    import ('@/pages/exam'))
+const Exam = Loadable(() =>
     import ('@/pages/home'))
 const Self = Loadable(() =>
     import ('@/pages/selfhook'))
@@ -17,5 +19,6 @@ export {
     Login,
     Self,
     Home,
-    Reg
+    Reg,
+    Exam
 }
