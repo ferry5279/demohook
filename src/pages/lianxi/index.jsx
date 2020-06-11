@@ -1,7 +1,9 @@
 
+
 import React from 'react';
 
-
+one
+hahahahha
 class index extends React.Component {
 
 
@@ -15,3 +17,4 @@ class index extends React.Component {
   }
 }
 export default index;
+
